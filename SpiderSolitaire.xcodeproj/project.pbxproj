@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D38305D1B9284DA0089DB70 /* cardFaces.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D38305C1B9284DA0089DB70 /* cardFaces.png */; };
+		1D9CE89E1B915C5700FC914E /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9CE89D1B915C5700FC914E /* HelpViewController.swift */; };
+		1DE033CA1B88D83500C5E67F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE033C91B88D83500C5E67F /* AppDelegate.swift */; };
+		1DE033CC1B88D84D00C5E67F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE033CB1B88D84D00C5E67F /* ViewController.swift */; };
+		1DE033D11B88D86900C5E67F /* cardback.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE033CF1B88D86900C5E67F /* cardback.png */; };
+		1DE033D41B88D8B900C5E67F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE033D31B88D8B900C5E67F /* Images.xcassets */; };
+		1DE033DA1B88D8DF00C5E67F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE033D61B88D8DF00C5E67F /* LaunchScreen.xib */; };
+		1DE033DB1B88D8DF00C5E67F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE033D81B88D8DF00C5E67F /* Main.storyboard */; };
+		1DE033DD1B88DB5D00C5E67F /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE033DC1B88DB5D00C5E67F /* Cards.swift */; };
+		1DE033DF1B89188700C5E67F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE033DE1B89188700C5E67F /* Game.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D38305C1B9284DA0089DB70 /* cardFaces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardFaces.png; path = source/cardFaces.png; sourceTree = SOURCE_ROOT; };
+		1D9CE89D1B915C5700FC914E /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpViewController.swift; path = source/HelpViewController.swift; sourceTree = SOURCE_ROOT; };
+		1DE033A01B8838DB00C5E67F /* SpiderSolitaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiderSolitaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE033C91B88D83500C5E67F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = source/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		1DE033CB1B88D84D00C5E67F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = source/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		1DE033CD1B88D85C00C5E67F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = source/Info.plist; sourceTree = SOURCE_ROOT; };
+		1DE033CF1B88D86900C5E67F /* cardback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardback.png; path = source/cardback.png; sourceTree = SOURCE_ROOT; };
+		1DE033D31B88D8B900C5E67F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Source/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		1DE033D71B88D8DF00C5E67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		1DE033D91B88D8DF00C5E67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		1DE033DC1B88DB5D00C5E67F /* Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cards.swift; path = source/Cards.swift; sourceTree = SOURCE_ROOT; };
+		1DE033DE1B89188700C5E67F /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = source/Game.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DE0339D1B8838DB00C5E67F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DE033971B8838DB00C5E67F = {
+			isa = PBXGroup;
+			children = (
+				1DE033A21B8838DB00C5E67F /* Source */,
+				1DE033A11B8838DB00C5E67F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DE033A11B8838DB00C5E67F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DE033A01B8838DB00C5E67F /* SpiderSolitaire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DE033A21B8838DB00C5E67F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1DE033DE1B89188700C5E67F /* Game.swift */,
+				1DE033DC1B88DB5D00C5E67F /* Cards.swift */,
+				1DE033CB1B88D84D00C5E67F /* ViewController.swift */,
+				1DE033C91B88D83500C5E67F /* AppDelegate.swift */,
+				1D9CE89D1B915C5700FC914E /* HelpViewController.swift */,
+				1DE033D31B88D8B900C5E67F /* Images.xcassets */,
+				1DE033D51B88D8DF00C5E67F /* Base.lproj */,
+				1DE033A31B8838DB00C5E67F /* Supporting Files */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1DE033A31B8838DB00C5E67F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DE033CD1B88D85C00C5E67F /* Info.plist */,
+				1D38305C1B9284DA0089DB70 /* cardFaces.png */,
+				1DE033CF1B88D86900C5E67F /* cardback.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DE033D51B88D8DF00C5E67F /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1DE033D81B88D8DF00C5E67F /* Main.storyboard */,
+				1DE033D61B88D8DF00C5E67F /* LaunchScreen.xib */,
+			);
+			name = Base.lproj;
+			path = source/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DE0339F1B8838DB00C5E67F /* SpiderSolitaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE033BF1B8838DB00C5E67F /* Build configuration list for PBXNativeTarget "SpiderSolitaire" */;
+			buildPhases = (
+				1DE0339C1B8838DB00C5E67F /* Sources */,
+				1DE0339D1B8838DB00C5E67F /* Frameworks */,
+				1DE0339E1B8838DB00C5E67F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpiderSolitaire;
+			productName = animate;
+			productReference = 1DE033A01B8838DB00C5E67F /* SpiderSolitaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DE033981B8838DB00C5E67F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Harry Kosalos";
+				TargetAttributes = {
+					1DE0339F1B8838DB00C5E67F = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 7237X7VY2S;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 1DE0339B1B8838DB00C5E67F /* Build configuration list for PBXProject "SpiderSolitaire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DE033971B8838DB00C5E67F;
+			productRefGroup = 1DE033A11B8838DB00C5E67F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DE0339F1B8838DB00C5E67F /* SpiderSolitaire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DE0339E1B8838DB00C5E67F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE033D41B88D8B900C5E67F /* Images.xcassets in Resources */,
+				1D38305D1B9284DA0089DB70 /* cardFaces.png in Resources */,
+				1DE033DB1B88D8DF00C5E67F /* Main.storyboard in Resources */,
+				1DE033DA1B88D8DF00C5E67F /* LaunchScreen.xib in Resources */,
+				1DE033D11B88D86900C5E67F /* cardback.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DE0339C1B8838DB00C5E67F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE033DD1B88DB5D00C5E67F /* Cards.swift in Sources */,
+				1DE033CA1B88D83500C5E67F /* AppDelegate.swift in Sources */,
+				1DE033CC1B88D84D00C5E67F /* ViewController.swift in Sources */,
+				1DE033DF1B89188700C5E67F /* Game.swift in Sources */,
+				1D9CE89E1B915C5700FC914E /* HelpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DE033D61B88D8DF00C5E67F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DE033D71B88D8DF00C5E67F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1DE033D81B88D8DF00C5E67F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DE033D91B88D8DF00C5E67F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DE033BD1B8838DB00C5E67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1DE033BE1B8838DB00C5E67F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DE033C01B8838DB00C5E67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = source/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harry.SpiderSolitaire;
+				PRODUCT_NAME = SpiderSolitaire;
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1DE033C11B8838DB00C5E67F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = source/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harry.SpiderSolitaire;
+				PRODUCT_NAME = SpiderSolitaire;
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DE0339B1B8838DB00C5E67F /* Build configuration list for PBXProject "SpiderSolitaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE033BD1B8838DB00C5E67F /* Debug */,
+				1DE033BE1B8838DB00C5E67F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE033BF1B8838DB00C5E67F /* Build configuration list for PBXNativeTarget "SpiderSolitaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE033C01B8838DB00C5E67F /* Debug */,
+				1DE033C11B8838DB00C5E67F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DE033981B8838DB00C5E67F /* Project object */;
+}

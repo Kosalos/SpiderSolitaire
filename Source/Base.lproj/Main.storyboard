@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SpiderSolitaire" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uj6-Yq-lbE">
+                                <rect key="frame" x="84" y="1058" width="105" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="nOq-MS-Lwk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="New Game">
+                                    <color key="titleColor" name="highlightColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="newGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3vZ-gC-VC4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXK-fx-mIg">
+                                <rect key="frame" x="389" y="1058" width="65" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="Git-pu-pXn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Undo">
+                                    <color key="titleColor" name="highlightColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="undo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y8F-Pk-Oyy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4N-ob-272">
+                                <rect key="frame" x="639" y="1058" width="95" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="1gc-cl-Zc1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Add Cards">
+                                    <color key="titleColor" name="highlightColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addCards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="01U-fN-urP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0HL-ym-hhM">
+                                <rect key="frame" x="30" y="1067" width="22" height="22"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1Ef-zu-sXU" kind="popoverPresentation" popoverAnchorView="0HL-ym-hhM" id="H0a-LY-qQN">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23737199566691058" green="0.17208305436143534" blue="0.021687036632414676" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="VXK-fx-mIg" firstAttribute="top" secondItem="q4N-ob-272" secondAttribute="top" id="9Ju-Yr-dDq"/>
+                            <constraint firstItem="Uj6-Yq-lbE" firstAttribute="leading" secondItem="0HL-ym-hhM" secondAttribute="trailing" constant="32" id="A85-Df-Z5n"/>
+                            <constraint firstItem="q4N-ob-272" firstAttribute="baseline" secondItem="VXK-fx-mIg" secondAttribute="firstBaseline" id="AMA-pu-ay1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Uj6-Yq-lbE" secondAttribute="bottom" constant="14" id="Mq0-Av-eQd"/>
+                            <constraint firstItem="Uj6-Yq-lbE" firstAttribute="baseline" secondItem="VXK-fx-mIg" secondAttribute="baseline" id="NvH-aS-hop"/>
+                            <constraint firstItem="0HL-ym-hhM" firstAttribute="centerY" secondItem="Uj6-Yq-lbE" secondAttribute="centerY" id="PhU-Ip-eXq"/>
+                            <constraint firstItem="VXK-fx-mIg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="389" id="S0d-lN-9gk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q4N-ob-272" secondAttribute="trailing" constant="80" id="oJ7-Or-PUv"/>
+                            <constraint firstItem="Uj6-Yq-lbE" firstAttribute="top" secondItem="VXK-fx-mIg" secondAttribute="top" id="rfh-Kr-ccN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0HL-ym-hhM" secondAttribute="bottom" constant="23" id="uQc-qe-Ym3"/>
+                            <constraint firstItem="0HL-ym-hhM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="vcp-um-aew"/>
+                            <constraint firstItem="VXK-fx-mIg" firstAttribute="baseline" secondItem="q4N-ob-272" secondAttribute="firstBaseline" id="x0o-3Z-6E6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addCardsButton" destination="q4N-ob-272" id="uG2-7l-uH6"/>
+                        <outlet property="newGameButton" destination="Uj6-Yq-lbE" id="PZ6-bz-cae"/>
+                        <outlet property="undoButton" destination="VXK-fx-mIg" id="mEC-7X-hAw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-654.67625899280586" y="1068.3453237410072"/>
+        </scene>
+        <!--Help View Controller-->
+        <scene sceneID="dvo-fP-ksb">
+            <objects>
+                <viewController id="1Ef-zu-sXU" customClass="HelpViewController" customModule="SpiderSolitaire" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zVl-lR-p1L"/>
+                        <viewControllerLayoutGuide type="bottom" id="gTE-fY-Aa1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V8g-xc-eYm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzA-M2-AL7">
+                                <rect key="frame" x="16" y="14" width="288" height="446"/>
+                                <color key="backgroundColor" red="0.0" green="0.20572291170003576" blue="0.41436464088397795" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Objective
+
+SpiderSolitaire is a solitaire game where the objective is to order all the cards in descending runs from King down to Ace in the same suit.
+Once a run has been completed, for example King of clubs down to Ace of clubs, the whole run will be removed from the table. 
+Once the table is completely  empty the game has been won.
+
+
+Setup
+
+The game is played with two full decks, 104 cards. 
+At the beginning  54 of the cards are divided between 10 tableaus.
+The top card of each tableau is turned face up, the others are face down.
+The remaining 50 cards are placed in a stock at the bottom of the screen.
+
+
+Valid moves
+
+A card can always be moved onto a card that is one higher in rank. 
+You can for example move a 7 of clubs and put it on an 8 of clubs, or an 8 of hearts, diamonds or spades. 
+
+You can move multiple cards together if they are all part of a run in the same suit.
+For example, if you have 8 of clubs, 7 of clubs, 6 of clubs, then you can click the 8 and move them all together onto a 9 of any suit. 
+However if you have 8 of clubs, 7 of hearts, 6 of diamonds, then you can't move them all together, only the top card.
+
+If a tableau is empty then any card or partial run is allowed to be moved onto it.
+
+A full run does not have to be the only thing on a tableau to be removed. 
+For example, a tableau might have three facedown cards and then a full run from King to Ace in the same suit and then the run would disappear, and the three facedown cards would remain.
+
+
+Adding cards from the stock
+
+Click  on the stock pile in the lower right corner.
+That will move 10 cards from the stock onto the tableaus, one card onto each tableau. 
+
+It is required that there is at least one card in each tableau when the stock is clicked. 
+If there is an empty tableau on the table you must first move one or more cards onto it before you can click on the stock.
+
+
+How to Move Cards
+
+Click/Drag the desired card(s) to the destination column,
+or Tap the top card of the group to let the computer select a destination.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.090196078431372548" green="0.21176470588235294" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fzA-M2-AL7" firstAttribute="top" secondItem="zVl-lR-p1L" secondAttribute="bottom" constant="14" id="Al7-Nc-T7D"/>
+                            <constraint firstItem="fzA-M2-AL7" firstAttribute="leading" secondItem="V8g-xc-eYm" secondAttribute="leadingMargin" id="QpG-c3-NcR"/>
+                            <constraint firstAttribute="bottom" secondItem="fzA-M2-AL7" secondAttribute="bottom" constant="20" symbolic="YES" id="igp-VR-r9Y"/>
+                            <constraint firstItem="fzA-M2-AL7" firstAttribute="trailing" secondItem="V8g-xc-eYm" secondAttribute="trailingMargin" id="ub8-ig-Y8R"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qct-O9-7YE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="383" y="1115"/>
+        </scene>
+    </scenes>
+</document>
